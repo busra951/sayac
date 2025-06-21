@@ -10,7 +10,7 @@ logging.basicConfig(
 )
 
 # YKS tarih ve saati
-YKS_DATE = datetime(2026, 6, 21, 10, 15)  # 20 Haziran 2026 10:15
+YKS_DATE = datetime(2026, 6, 20, 10, 15)  # 20 Haziran 2026 10:15
 
 async def sayac(update: Update, context: ContextTypes.DEFAULT_TYPE):
     """YKS'ye kalan süreyi hesaplayan komut"""
